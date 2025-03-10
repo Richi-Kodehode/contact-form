@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const API_ACCESS_KEY = import.meta.env.VITE_API_ACCESS_KEY;
+const API_ACCESS_KEY = import.meta.env.API_ACCESS_KEY;
 
 export default function ContactForm() {
   const [result, setResult] = useState("");
